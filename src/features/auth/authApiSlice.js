@@ -11,3 +11,7 @@ export const authApiSlice = apiSlice.injectEndpoints({
     }),
   }),
 });
+
+export const { useLoginMutation } = authApiSlice;
+
+export default authApiSlice.reducer;
